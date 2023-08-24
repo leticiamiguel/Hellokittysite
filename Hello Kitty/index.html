@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Estrutura HTML da página inicial do site -->
+<!-- lang define o idioma da página-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- As tags a seguir, title e link, definem o nome e ícone da página que serão exibidos no aba do navegador -->
+    <title>DS - Regente</title>
+    <link rel="icon" type="image/x-icon" href="imagens/logo-icon.png">
+
+    <!-- A seguir estão sendo linkados os arquivos css que definirão a estilização da página -->
+    <!-- reset.css resetá/zera/normaliza todo e qualquer estilo predefinido pelo navegador -->
+    <!-- style.css define a estilização a ser aplicada na página -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Cabeçalho da página: logo e nome do site -->
+    <header id="topo">
+        <img class="logo" src="imagens/hellokittylogo-removebg-preview.png" alt="Pinguim, logo do Linux">
+        <h1 class="titulo">Hello Kitty</h1>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul class="menu">
+            <li class="item-menu"><a href="index.html">Home</a></li>
+            <li class="item-menu"><a href="sobre.html">Sobre</a></li>
+            <li class="item-menu"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo, parte principal da página, será dividido em 3 seções -->
+    <main>
+        <!-- Seção 1: contém imagem e texto -->
+        <section class="curso-info">
+            <h2 class="titulo-section">Mais sobre a Hello Kitty</h2>
+            <img class="curso-img" src="imagens/hellokittyheaderindex.png">
+            <p class="curso-paragrafo">Hello Kitty, também conhecida por seu nome completo Kitty White, é uma personagem criada pela empresa japonesa Sanrio. Apesar do bigode, das orelhas e do nome, Sanrio retrata Hello Kitty como uma jovem gijinka de um Bobtail Japonês com um laço vermelho e, notavelmente, sem boca.</p>
+        </section>
+
+        <!-- Seção 2: contém um vídeo -->
+        <section>
+            <h2 class="titulo-section">Trailer oficial da animação da Hello Kitty</h2>
+            <iframe width="1100" height="500" src="https://www.youtube.com/embed/eC_5OwDYUVs?si=b-xCME9pmEOMYXbR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        </section>
+
+        <!-- Seção 3: contém uma mapa -->
+        <section id="section-maps">
+            <h2 class="titulo-section">Sanrio Puroland</h2>
+            <p class="mapa-info">Parque da Hello Kitty
+            </p>
+            <iframe class="mapa" name="mapa"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103780.05818166971!2d139.3469965390625!3d35.624599999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e34b221ad081%3A0xf0aaab4654086855!2sSanrio%20Puroland!5e0!3m2!1spt-BR!2sbr!4v1692875246613!5m2!1spt-BR!2sbr" width="1100" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <aside class="sidebar">
+            <h3 class="sidebar-titulo">Parceiros</h3>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/felipreto.jpg"
+                    alt="FeliPreto"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/jamorim.jpg"
+                    alt="João Amorim"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/roboman.jpg" alt="Roboman"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/scobra.jpg"
+                    alt="Stalone Cobra"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/titanic666.jpg"
+                    alt="Titanic 666"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/cats.jpg" alt="Cats"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/miguelito.jpg"
+                    alt="Miguelito"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/decreptos.jpg"
+                    alt="Decréptos"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/room.jpg" alt="The Room"></a>
+            <p class="sidebar-info">Todos os parceiros são testados e aprovados pelos mestres do vacilo.</p>
+            <img class="sidebar-img" src="imagens/selo.png" alt="Selo Vacilo de Qualidade">
+        </aside>
+
+        <a class="btn_inicio" href="#topo" title="Voltar ao Início">&#8657</a>
+        
+    </main>
+
+    <!-- Rodapé da página: contém o logo e texto -->
+    <footer>
+        <img class="logo-rodape" src="imagens/hellokittylogo-removebg-preview.png" alt="Pinguim, logo do Linux">
+        <p class="texto-rodape">Projeto Desenvolvido para servir de modelo e aprendiazagem ao longo do curso de
+            desenvolvimentos em sistemas.</p>
+        <p class="texto-rodape">Todos os diretos liberados. Uncreative Commons.</p>
+        <p class="texto-rodape" style="font-size: 33px;">&#9982;</p>
+    </footer>
+</body>
+
+</html>
