@@ -125,6 +125,7 @@ section{
     width: 90%;
     height: 500px;
     margin: 10px 3%;
+    
 }
 
 #section-maps {
@@ -192,7 +193,7 @@ section{
 }
 
 .titulo-conteudo {
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -201,6 +202,34 @@ section{
     height: 230px;
     margin-top: 7px;
     margin-bottom: 7px;
+}
+.batzumaru {
+    height: 270px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+.mymelody {
+    height: 250px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+
+}
+.kuromi {
+    height: 205px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+
+}
+.cina {
+    height: 190px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+
+
+
+
 }
 
 .desc-conteudo {
